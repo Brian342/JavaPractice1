@@ -6,13 +6,14 @@ public class interfaces{
          */
 
          Rabbit rabbit = new Rabbit();
-         rabbit.flee();
+            rabbit.flee();
+
         Hawk hawk = new Hawk();
-        hawk.hunt();
+            hawk.hunt();
 
         Fish fish = new Fish();
-        fish.hunt();
-        fish.flee();
+            fish.hunt();
+            fish.flee();
 
     }
 }
