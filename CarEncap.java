@@ -9,6 +9,9 @@ public class CarEncap {
         this.setMake(make);
         this.setYear(year); 
    }
+   CarEncap(CarEncap x){
+    this.copy(x);
+   }
 
     public  String getMake(){
         return make;
@@ -28,5 +31,11 @@ public class CarEncap {
     }
     public void setYear(int year){
         this.year= year;
+    }
+
+    public void copy(CarEncap x){
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
     }
 }
