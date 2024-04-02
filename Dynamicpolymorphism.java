@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Dynamicpolymorphism {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         /*polymorphism = many shapes/forms
          * dynamic = after compilation (during runtime)
