@@ -39,7 +39,7 @@ public class jcolorchooserframe extends JFrame implements ActionListener{
             Color color = JColorChooser.showDialog(null, "Pick a Color ... I guess", Color.black);
 
             label.setForeground(color);
-            label.setBackground(color);
+            //label.setBackground(color);
 
         }
     }
