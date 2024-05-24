@@ -18,9 +18,13 @@ public class twodgraphicsmypanel extends JPanel{
             g2D.setStroke(new BasicStroke(5));
             // g2D.drawLine(0, 0, 500, 500);
 
-            g2D.setPaint(Color.pink);
-            // g2D.drawRect(0,0,100,200);
-            g2D.fillRect(0,0,100,200);
+            // g2D.setPaint(Color.pink);
+            // // g2D.drawRect(0,0,100,200);
+            // g2D.fillRect(0,0,100,200);
+
+            g2D.setPaint(Color.orange);
+            // g2D.drawOval(0, 0, 100, 100);
+            g2D.fillOval(0, 0, 100, 100);
         }
     }
     
