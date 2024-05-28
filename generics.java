@@ -13,15 +13,25 @@ public class generics {
         String[] stringArray = {"Hello", "World"};
 
 
-        displayArray(dArray);
-        displayArray(inArray);
-        displayArray(charArray);
-        displayArray(stringArray);
+        // displayArray(dArray);
+        // displayArray(inArray);
+        // displayArray(charArray);
+        // displayArray(stringArray);
+
+        System.out.println(getFirst(inArray));
+        System.out.println(getFirst(dArray));
+        System.out.println(getFirst(charArray));
+        System.out.println(getFirst(stringArray));
     }
-    public static <Thing> void displayArray(Thing[] array) {
-        for(Thing x : array){
-            System.out.println(x+" ");
+    // public static <Thing> void displayArray(Thing[] array) {
+    //     for(Thing x : array){
+    //         System.out.println(x+" ");
+    //     }
+    //     System.out.println();
+    // }
+
+    public static <T> T getFirst(T[] array){
+        return array[0];
         }
-        System.out.println();
     }
-}
+
