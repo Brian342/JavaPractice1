@@ -1,10 +1,14 @@
+import java.util.ArrayList;
+
 public class genericsClasses{
     public static void main(String[] args) {
         //Generics
-        Mygenericclass <Integer> myInt = new Mygenericclass(1);
-        Mygenericclass <Double> myDouble = new Mygenericclass(3.14);
-        Mygenericclass <Character> myChar = new Mygenericclass('@');
-        Mygenericclass <String> myString = new Mygenericclass("Hello");
+        Mygenericclass <Integer,Integer> myInt = new Mygenericclass<>(1,9);
+        Mygenericclass <Double, Double> myDouble = new Mygenericclass<>(3.14, 1.9);
+        Mygenericclass <Character,Character> myChar = new Mygenericclass<>('@','#');
+        Mygenericclass <String,Character> myString = new Mygenericclass <> ("Hello",'!');
+
+       ArrayList<String> myFriends = new ArrayList<>();
 
        System.out.println(myInt.getValue());
        System.out.println(myDouble.getValue());

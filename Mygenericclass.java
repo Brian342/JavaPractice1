@@ -1,10 +1,12 @@
-public class Mygenericclass <Thing>{
+public class Mygenericclass <Thing,Thing2>{
     
     Thing x;
-    Mygenericclass(Thing x){
+    Thing2 y;
+    Mygenericclass(Thing x, Thing2 y){
         this.x = x;
+        this.y = y;
     } 
-    public Thing getValue(){
-        return x;
+    public Thing2 getValue(){
+        return y;
     }
 }
