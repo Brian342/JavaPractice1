@@ -6,5 +6,40 @@ public class generics {
          *           of methods or classes for various data types.
          *           use 1 version for all reference data types.
         */
+
+        Integer[] inArray = {1, 2, 3, 4, 5};
+        Double[] dArray = {1.1, 2.2, 3.3};
+        Character[] charArray = {'H', 'E', 'L','L'};
+        String[] stringArray = {"Hello", "World"};
+
+
+        displayArray(dArray);
+        displayArray(inArray);
+        displayArray(charArray);
+        displayArray(stringArray);
+    }
+    public static void displayArray(Integer[] array) {
+        for(Integer x : array){
+            System.out.println(x+" ");
+        }
+        System.out.println();
+    }
+    public static void displayArray(Double[] array) {
+        for(Double x : array){
+            System.out.println(x+" ");
+        }
+        System.out.println();
+    }
+    public static void displayArray(Character[] array) {
+        for(Character x : array){
+            System.out.println(x+" ");
+        }
+        System.out.println();
+    }
+    public static void displayArray(String[] array) {
+        for(String x : array){
+            System.out.println(x+ "");
+        }
+        System.out.println();
     }
 }
