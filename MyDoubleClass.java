@@ -1,13 +1,14 @@
 public class MyDoubleClass {
 
-    Double y;
+    Double x;
 
-    MyDoubleClass(Double y){
-        this.y = y;
+    MyDoubleClass(Double x){
+        this.x = x;
 
     }
+
     public Double getValue(){
-        return y;
+        return x;
     }
 
 }

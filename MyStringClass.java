@@ -1,12 +1,13 @@
 public class MyStringClass {
-    String z;
+    String x;
 
-    MyStringClass(String z){
-        this.z = z;
+    MyStringClass(String x){
+
+        this.x = x;
     }
-    public String getvalue(){
-        return z;
+    public String getValue(){
+        return x;
     }
 }
 
-}
+

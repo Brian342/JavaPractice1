@@ -1,10 +1,12 @@
 public class MyCharacterClass {
-    Character z;
 
-    MyCharacterClass(Character z){
-        this.z = z;
+    Character x;
+
+    MyCharacterClass(Character x){
+        this.x = x;
     }
-    public Character getvalue(){
-        return z;
+
+    public Character getValue(){
+        return x;
     }
 }
