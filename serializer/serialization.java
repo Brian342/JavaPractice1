@@ -1,6 +1,5 @@
 package serializer;
 public class serialization{
-    public static void main(String[] args){
         /*Serialization = . The process of converting an object into a byte Stream
          *                  persists (saves the state) the object after program exits
          *                  this byte stream can be saved as a file or sent over a network
@@ -13,4 +12,3 @@ public class serialization{
          *                   (Think of this as if you're loading a saved file)
          */
     }
-}
