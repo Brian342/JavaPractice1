@@ -2,6 +2,7 @@ package serializer;
 
 import java.io.*;
 
+
 public class main {
     public static void main(String[] args) throws IOException {
         /* Steps to Serialize
@@ -17,7 +18,7 @@ public class main {
 
         user User = new user();
 
-        User.name = "Brian";
+        User.name = "Brian kim";
         User.password ="Password";
 
         FileOutputStream fileOut = new FileOutputStream("UserInfo.ser");
