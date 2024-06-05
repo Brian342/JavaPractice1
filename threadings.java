@@ -31,7 +31,11 @@ public class threadings {
     //     }
     //     System.out.println("You are done");
 
-    // }
-
     
+        mynewthreadings thread2 = new mynewthreadings();
+        thread2.run();
+        System.out.println(thread2.isAlive());
+}
+
+     
 }
