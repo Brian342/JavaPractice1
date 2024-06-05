@@ -7,18 +7,21 @@ public class multithreadding {
                             useful for serving multiple clients, multiplayer games, or other mually independent tasks
          * 
          */
+        // Create a subclass of Thread
         mymultithreadding thread1 = new mymultithreadding();
 
+        //implements Runnable interface and pass instance as an argument to Thread()
         mymultithreadingrunnable runnable1 = new mymultithreadingrunnable();
         Thread thread2 = new Thread(runnable1);
 
-        
+        // thread1.setDaemon(true);
+        // thread2.setDaemon(true);
 
         thread1.start();
-        thread1.join(3000); //calling thread (ex.main) wait untill the specified thread dies of for x milliseconds
+        // thread1.join(3000); //calling thread (ex.main) wait untill the specified thread dies of for x milliseconds
         thread2.start();
 
-        // System.out.println(1/0);
+        System.out.println(1/0);
 
     }
 }
