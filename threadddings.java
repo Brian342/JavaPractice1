@@ -14,6 +14,9 @@ public class threadddings {
          *          When a JVM starts up, there is a thread which calls the main method
          *          This thread is called "main"
          * 
+         *          Daemon thread is a low priority thread that runs in background to perform tasks such as garbage collection
+         *          JVM terminates itself when all user threads (non-daemon threads) finish their execution
+         * 
          */
 
         //  System.out.println(Thread.activeCount());
@@ -33,8 +36,20 @@ public class threadddings {
 
     
         mynewthreadings thread2 = new mynewthreadings();
+
+        thread2.setDaemon(true);
+        System.out.println(thread2.isDaemon());
         thread2.run();
-        System.out.println(thread2.isAlive());
+        // System.out.println(thread2.isAlive());
+
+        // System.out.println(thread2.getName());
+        // thread2.setName("2nd thread");
+
+        // thread2.setPriority(1);
+        // System.out.println(thread2.getPriority());
+
+
+        System.out.println(Thread.activeCount());
 }
 
      
