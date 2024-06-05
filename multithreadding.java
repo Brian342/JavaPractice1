@@ -8,5 +8,12 @@ public class multithreadding {
          * 
          */
         mymultithreadding thread1 = new mymultithreadding();
+
+        mymultithreadingrunnable runnable1 = new mymultithreadingrunnable();
+        Thread thread2 = new Thread(runnable1);
+
+        thread1.start();
+        thread2.start();
+
     }
 }
