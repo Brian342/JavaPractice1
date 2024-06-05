@@ -1,4 +1,4 @@
-public class mynewthreadings extends threadings{
+public class mynewthreadings extends Thread{
 
     @Override
     public void run() {

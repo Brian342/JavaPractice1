@@ -1,4 +1,4 @@
-public class threadings {
+public class threadddings {
     public static void main(String[] args) throws InterruptedException {
             /*
          * Thread = A thread of execution in a program (kind of like a virtual CPU)
