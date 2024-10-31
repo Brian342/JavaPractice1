@@ -4,6 +4,7 @@ public class Friend {
 
     Friend(String name){
         this.name = name;
+        numberOfFriends++;
     }
 
 }
